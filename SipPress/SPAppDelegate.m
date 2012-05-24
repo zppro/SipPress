@@ -7,6 +7,7 @@
 //
 
 #import "SPAppDelegate.h"
+#import "SPHomeController.h"
 
 @implementation SPAppDelegate
 
@@ -23,6 +24,9 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    SPHomeController *homeController = [[[SPHomeController alloc] init] autorelease];
+    [self.window setRootViewController:[[[UINavigationController alloc] initWithRootViewController:homeController] autorelease]]; 
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

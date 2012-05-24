@@ -13,19 +13,45 @@
 		ACD3DD9B156E00EC00D299B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACD3DD99156E00EC00D299B2 /* InfoPlist.strings */; };
 		ACD3DD9D156E00EC00D299B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3DD9C156E00EC00D299B2 /* main.m */; };
 		ACD3DDA1156E00EC00D299B2 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3DDA0156E00EC00D299B2 /* SPAppDelegate.m */; };
+		ACD3DDB2156E02BE00D299B2 /* libcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD3DDAF156E029400D299B2 /* libcore.a */; };
+		ACD3DDBC156E079900D299B2 /* SPHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3DDBB156E079900D299B2 /* SPHomeController.m */; };
+		ACD3DDC1156E0A9700D299B2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD3DDC0156E0A9700D299B2 /* CoreData.framework */; };
+		ACD3DDC6156E173600D299B2 /* Documents in Resources */ = {isa = PBXBuildFile; fileRef = ACD3DDC5156E173600D299B2 /* Documents */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD3DDAE156E029400D299B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD3DDA7156E029300D299B2 /* core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ACDDF37A1531BFE400011F06;
+			remoteInfo = core;
+		};
+		ACD3DDB0156E02B800D299B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD3DDA7156E029300D299B2 /* core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDDF3791531BFE400011F06;
+			remoteInfo = core;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		ACD3DD8C156E00EC00D299B2 /* SipPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SipPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD3DD90156E00EC00D299B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ACD3DD92156E00EC00D299B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACD3DD94156E00EC00D299B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ACD3DD98156E00EC00D299B2 /* SipPress-Info.plist */ = {isa = PBXFileReference; path = "SipPress-Info.plist"; sourceTree = "<group>"; };
+		ACD3DD98156E00EC00D299B2 /* SipPress-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SipPress-Info.plist"; sourceTree = "<group>"; };
 		ACD3DD9A156E00EC00D299B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACD3DD9C156E00EC00D299B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ACD3DD9E156E00EC00D299B2 /* SipPress-Prefix.pch */ = {isa = PBXFileReference; path = "SipPress-Prefix.pch"; sourceTree = "<group>"; };
-		ACD3DD9F156E00EC00D299B2 /* SPAppDelegate.h */ = {isa = PBXFileReference; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		ACD3DD9E156E00EC00D299B2 /* SipPress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SipPress-Prefix.pch"; sourceTree = "<group>"; };
+		ACD3DD9F156E00EC00D299B2 /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
 		ACD3DDA0156E00EC00D299B2 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		ACD3DDA7156E029300D299B2 /* core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = core.xcodeproj; path = ../core/core.xcodeproj; sourceTree = "<group>"; };
+		ACD3DDBA156E079900D299B2 /* SPHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPHomeController.h; path = Home/SPHomeController.h; sourceTree = "<group>"; };
+		ACD3DDBB156E079900D299B2 /* SPHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPHomeController.m; path = Home/SPHomeController.m; sourceTree = "<group>"; };
+		ACD3DDC0156E0A9700D299B2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ACD3DDC5156E173600D299B2 /* Documents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documents; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD3DDC1156E0A9700D299B2 /* CoreData.framework in Frameworks */,
+				ACD3DDB2156E02BE00D299B2 /* libcore.a in Frameworks */,
 				ACD3DD91156E00EC00D299B2 /* UIKit.framework in Frameworks */,
 				ACD3DD93156E00EC00D299B2 /* Foundation.framework in Frameworks */,
 				ACD3DD95156E00EC00D299B2 /* CoreGraphics.framework in Frameworks */,
@@ -62,8 +90,10 @@
 		ACD3DD8F156E00EC00D299B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ACD3DDA7156E029300D299B2 /* core.xcodeproj */,
 				ACD3DD90156E00EC00D299B2 /* UIKit.framework */,
 				ACD3DD92156E00EC00D299B2 /* Foundation.framework */,
+				ACD3DDC0156E0A9700D299B2 /* CoreData.framework */,
 				ACD3DD94156E00EC00D299B2 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
@@ -72,6 +102,7 @@
 		ACD3DD96156E00EC00D299B2 /* SipPress */ = {
 			isa = PBXGroup;
 			children = (
+				ACD3DDB9156E075900D299B2 /* Home */,
 				ACD3DD9F156E00EC00D299B2 /* SPAppDelegate.h */,
 				ACD3DDA0156E00EC00D299B2 /* SPAppDelegate.m */,
 				ACD3DD97156E00EC00D299B2 /* Supporting Files */,
@@ -82,12 +113,38 @@
 		ACD3DD97156E00EC00D299B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ACD3DDC5156E173600D299B2 /* Documents */,
+				ACD3DDBD156E087B00D299B2 /* AppIcon */,
 				ACD3DD98156E00EC00D299B2 /* SipPress-Info.plist */,
 				ACD3DD99156E00EC00D299B2 /* InfoPlist.strings */,
 				ACD3DD9C156E00EC00D299B2 /* main.m */,
 				ACD3DD9E156E00EC00D299B2 /* SipPress-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACD3DDA8156E029300D299B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3DDAF156E029400D299B2 /* libcore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD3DDB9156E075900D299B2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3DDBA156E079900D299B2 /* SPHomeController.h */,
+				ACD3DDBB156E079900D299B2 /* SPHomeController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		ACD3DDBD156E087B00D299B2 /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AppIcon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +161,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				ACD3DDB1156E02B800D299B2 /* PBXTargetDependency */,
 			);
 			name = SipPress;
 			productName = SipPress;
@@ -129,6 +187,12 @@
 			mainGroup = ACD3DD81156E00EB00D299B2;
 			productRefGroup = ACD3DD8D156E00EC00D299B2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ACD3DDA8156E029300D299B2 /* Products */;
+					ProjectRef = ACD3DDA7156E029300D299B2 /* core.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ACD3DD8B156E00EC00D299B2 /* SipPress */,
@@ -136,12 +200,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		ACD3DDAF156E029400D299B2 /* libcore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcore.a;
+			remoteRef = ACD3DDAE156E029400D299B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		ACD3DD8A156E00EC00D299B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ACD3DD9B156E00EC00D299B2 /* InfoPlist.strings in Resources */,
+				ACD3DDC6156E173600D299B2 /* Documents in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,10 +229,19 @@
 			files = (
 				ACD3DD9D156E00EC00D299B2 /* main.m in Sources */,
 				ACD3DDA1156E00EC00D299B2 /* SPAppDelegate.m in Sources */,
+				ACD3DDBC156E079900D299B2 /* SPHomeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACD3DDB1156E02B800D299B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = core;
+			targetProxy = ACD3DDB0156E02B800D299B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ACD3DD99156E00EC00D299B2 /* InfoPlist.strings */ = {
@@ -219,7 +303,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SipPress/SipPress-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../core/**";
 				INFOPLIST_FILE = "SipPress/SipPress-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -230,7 +320,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SipPress/SipPress-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../core/**";
 				INFOPLIST_FILE = "SipPress/SipPress-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
