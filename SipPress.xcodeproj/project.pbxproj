@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACD3DD91156E00EC00D299B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD3DD90156E00EC00D299B2 /* UIKit.framework */; };
+		ACD3DD93156E00EC00D299B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD3DD92156E00EC00D299B2 /* Foundation.framework */; };
+		ACD3DD95156E00EC00D299B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD3DD94156E00EC00D299B2 /* CoreGraphics.framework */; };
+		ACD3DD9B156E00EC00D299B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACD3DD99156E00EC00D299B2 /* InfoPlist.strings */; };
+		ACD3DD9D156E00EC00D299B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3DD9C156E00EC00D299B2 /* main.m */; };
+		ACD3DDA1156E00EC00D299B2 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3DDA0156E00EC00D299B2 /* SPAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACD3DD8C156E00EC00D299B2 /* SipPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SipPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD3DD90156E00EC00D299B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACD3DD92156E00EC00D299B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACD3DD94156E00EC00D299B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACD3DD98156E00EC00D299B2 /* SipPress-Info.plist */ = {isa = PBXFileReference; path = "SipPress-Info.plist"; sourceTree = "<group>"; };
+		ACD3DD9A156E00EC00D299B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACD3DD9C156E00EC00D299B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACD3DD9E156E00EC00D299B2 /* SipPress-Prefix.pch */ = {isa = PBXFileReference; path = "SipPress-Prefix.pch"; sourceTree = "<group>"; };
+		ACD3DD9F156E00EC00D299B2 /* SPAppDelegate.h */ = {isa = PBXFileReference; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		ACD3DDA0156E00EC00D299B2 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD3DD89156E00EC00D299B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD3DD91156E00EC00D299B2 /* UIKit.framework in Frameworks */,
+				ACD3DD93156E00EC00D299B2 /* Foundation.framework in Frameworks */,
+				ACD3DD95156E00EC00D299B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACD3DD81156E00EB00D299B2 = {
+			isa = PBXGroup;
+			children = (
+				ACD3DD96156E00EC00D299B2 /* SipPress */,
+				ACD3DD8F156E00EC00D299B2 /* Frameworks */,
+				ACD3DD8D156E00EC00D299B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD3DD8D156E00EC00D299B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3DD8C156E00EC00D299B2 /* SipPress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD3DD8F156E00EC00D299B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3DD90156E00EC00D299B2 /* UIKit.framework */,
+				ACD3DD92156E00EC00D299B2 /* Foundation.framework */,
+				ACD3DD94156E00EC00D299B2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACD3DD96156E00EC00D299B2 /* SipPress */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3DD9F156E00EC00D299B2 /* SPAppDelegate.h */,
+				ACD3DDA0156E00EC00D299B2 /* SPAppDelegate.m */,
+				ACD3DD97156E00EC00D299B2 /* Supporting Files */,
+			);
+			path = SipPress;
+			sourceTree = "<group>";
+		};
+		ACD3DD97156E00EC00D299B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3DD98156E00EC00D299B2 /* SipPress-Info.plist */,
+				ACD3DD99156E00EC00D299B2 /* InfoPlist.strings */,
+				ACD3DD9C156E00EC00D299B2 /* main.m */,
+				ACD3DD9E156E00EC00D299B2 /* SipPress-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD3DD8B156E00EC00D299B2 /* SipPress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD3DDA4156E00EC00D299B2 /* Build configuration list for PBXNativeTarget "SipPress" */;
+			buildPhases = (
+				ACD3DD88156E00EC00D299B2 /* Sources */,
+				ACD3DD89156E00EC00D299B2 /* Frameworks */,
+				ACD3DD8A156E00EC00D299B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SipPress;
+			productName = SipPress;
+			productReference = ACD3DD8C156E00EC00D299B2 /* SipPress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD3DD83156E00EB00D299B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = ACD3DD86156E00EB00D299B2 /* Build configuration list for PBXProject "SipPress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACD3DD81156E00EB00D299B2;
+			productRefGroup = ACD3DD8D156E00EC00D299B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD3DD8B156E00EC00D299B2 /* SipPress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD3DD8A156E00EC00D299B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD3DD9B156E00EC00D299B2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD3DD88156E00EC00D299B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD3DD9D156E00EC00D299B2 /* main.m in Sources */,
+				ACD3DDA1156E00EC00D299B2 /* SPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACD3DD99156E00EC00D299B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD3DD9A156E00EC00D299B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACD3DDA2156E00EC00D299B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACD3DDA3156E00EC00D299B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD3DDA5156E00EC00D299B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SipPress/SipPress-Prefix.pch";
+				INFOPLIST_FILE = "SipPress/SipPress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACD3DDA6156E00EC00D299B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SipPress/SipPress-Prefix.pch";
+				INFOPLIST_FILE = "SipPress/SipPress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD3DD86156E00EB00D299B2 /* Build configuration list for PBXProject "SipPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD3DDA2156E00EC00D299B2 /* Debug */,
+				ACD3DDA3156E00EC00D299B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD3DDA4156E00EC00D299B2 /* Build configuration list for PBXNativeTarget "SipPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD3DDA5156E00EC00D299B2 /* Debug */,
+				ACD3DDA6156E00EC00D299B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD3DD83156E00EB00D299B2 /* Project object */;
+}
